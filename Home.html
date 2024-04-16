@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
       background-color: #000000;
@@ -45,17 +46,68 @@
       
     }
     .card {
-      background-color: #000000;
+      background-color: #0e1cb9;
       border: none;
       transition: transform 0.3s ease;
     }
     .card:hover {
-      background-color: #010198;
+      background-color: #f6f6f6;
       transform: translateY(-10px);
     }
     .card-title {
       font-size: 1.2rem;
       font-weight: bold;
+    }
+    .category-container {
+      perspective: 1000px;
+    }
+    .category-card {
+      position: relative;
+      width: 100%;
+      height: 400px;
+      text-align: center;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .category-card:hover {
+      transform: rotateY(180deg);
+    }
+    .category-front, .category-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+    }
+    .category-front {
+      background-color: #3608b5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+    }
+    .category-back {
+      background-color: #2c2e4c;
+      color: #fff;
+      transform: rotateY(180deg);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .category-icon {
+      font-size: 5rem;
+      margin-bottom: 20px;
+    }
+    .category-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .category-description {
+      font-size: 1.2rem;
     }
   
     
@@ -72,19 +124,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#">Tipos AI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Directorio</a>
+              <a class="nav-link" href="#"></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="http://127.0.0.1:5500/AI/catehorias.html">Categorías</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Recursos</a>
+              <a class="nav-link" href="#">Futuro AI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Blog</a>
+              <a class="nav-link" href="http://127.0.0.1:5500/Sv.html#">Juegos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contacto</a>
@@ -104,12 +156,16 @@
       <p class="lead text-center">La Inteligencia Artificial (IA) es un campo de la informática que se enfoca en la creación de sistemas y tecnologías capaces de realizar tareas que normalmente requieren inteligencia humana. Estos sistemas buscan simular y replicar procesos de pensamiento humano, como el razonamiento, el aprendizaje, la percepción y la toma de decisiones. El objetivo final es crear máquinas y sistemas que puedan funcionar de manera autónoma y resolver problemas de manera efectiva.</p>
     </div>
   </section>
-  
+
+
+
+
+
   <main>
-		<section>
+		<section >
 			<h2>Algo que no sabias</h2>
 			<article>
-				<details open>
+				<details off>
 					<summary>¿Cómo la IA está revolucionando la publicidad digital?</summary>
 					<p>
             La Inteligencia Artificial (IA) está revolucionando la publicidad digital de varias maneras, brindando a los profesionales del marketing herramientas y capacidades 
@@ -117,64 +173,56 @@
             <ul>
               <ol>
                 <li>
-                  <h3>1. Inteligencia Artificial Revolucionaria</h3>
-                  <p>Descubre cómo la IA está transformando la publicidad digital de manera disruptiva.</p>
+                  <h3> Personalización y Segmentación:</h3>
+                  <p>La IA permite una personalización mucho más precisa y efectiva en la publicidad digital. Los algoritmos de IA pueden analizar grandes 
+                    cantidades de datos de usuarios para comprender sus intereses, comportamientos de navegación, historial de compras y más. Esto permite a los anunciantes 
+                    crear anuncios específicamente adaptados a cada usuario,
+                     lo que aumenta la relevancia y la probabilidad de que los usuarios interactúen con los anuncios.</p>
                 </li>
                 <li>
-                  <h3>2. Convierte tu Blog en Video</h3>
-                  <p>Aprende a convertir tus artículos de blog en videos atractivos con voz en off.</p>
+                  <h3>Optimización de Ofertas y Presupuestos:</h3>
+                  <p>Los sistemas de IA pueden optimizar automáticamente las ofertas y presupuestos de publicidad en tiempo real. 
+                    Estos algoritmos pueden ajustar las ofertas basándose en datos en tiempo real sobre la competencia, el comportamiento del usuario
+                     y las tasas de conversión. Esto ayuda a maximizar el retorno de la inversión
+                     (ROI) al garantizar que los anuncios se muestren en el momento adecuado y al público adecuado</p>
                 </li>
                 <li>
-                  <h3>3. Crea Logos con IA Gratis</h3>
-                  <p>Explora cómo la inteligencia artificial te permite crear logotipos profesionales sin costo.</p>
+                  <h3>Automatización de Campañas:</h3>
+                  <p>La IA permite la automatización de campañas publicitarias. Los sistemas de IA pueden crear, implementar y optimizar campañas publicitarias sin la intervención 
+                    manual constante. Esto ahorra tiempo y recursos,
+                     permitiendo a los profesionales del marketing centrarse en estrategias creativas y de alto nivel.</p>
                 </li>
                 <li>
-                  <h3>4. Aumenta tu Productividad con Jasper.ai</h3>
-                  <p>Descubre cómo Jasper.ai puede ayudarte a impulsar la productividad de tu empresa.</p>
+                  <h3>Optimización de Creatividades:</h3>
+                  <p>Los algoritmos de IA pueden analizar el rendimiento de diferentes versiones de creatividades publicitarias y determinar cuáles generan mejores resultados.
+                     Esto incluye la optimización de elementos como imágenes,
+                     copias de texto, colores y llamados a la acción (CTA), lo que mejora la efectividad de los anuncios.</p>
                 </li>
-                <li>
-                  <h3>5. Inteligencias Artificiales para Presentaciones</h3>
-                  <p>Conoce las mejores herramientas de IA para crear presentaciones cautivadoras.</p>
-                </li>
-                <li>
-                  <h3>6. IA en el Sector Financiero</h3>
-                  <p>Explora cómo la inteligencia artificial está transformando el panorama financiero.</p>
-                </li>
-                <li>
-                  <h3>7. Dibuja con Inteligencia Artificial</h3>
-                  <p>Descubre las mejores inteligencias artificiales para dibujar y dar rienda suelta a tu creatividad.</p>
-                </li>
-                <li>
-                  <h3>8. Limitaciones de la IA</h3>
-                  <p>Conoce las limitaciones actuales de la inteligencia artificial y lo que aún no puede hacer.</p>
-                </li>
-                <li>
-                  <h3>9. Videos Personalizados con BHuman</h3>
-                  <p>Aprende a crear videos personalizados y atractivos utilizando la IA de BHuman.</p>
-                </li>
-                <li>
-                  <h3>10. Inteligencias Artificiales para Trabajos de Clase</h3>
-                  <p>Descubre las 10 mejores inteligencias artificiales que pueden ayudarte con tus trabajos escolares.</p>
-                </li>
+              
               </ol>
             </ul>
 				</details>
 			</article>
-			<article>
-				<details>
-					<summary>Cómo convertir un artículo de blog en un video con voz en off</summary>
-					<p>Contenido del artículo...</p>
-				</details>
-			</article>
+			
 			<!-- Más artículos -->
 		</section>
 	</main>
+
+
+
+
+
+
+
+
+  
 
 	<footer>
 		<!-- Contenido del footer -->
 	</footer>
 
-  <section class="section bg-dark">
+  <section class="section bg-dark" style="background: url(IMG/Fondo.jpeg) no-repeat center center fixed; background-size: cover; height: 400px;">
+    
     <div class="container">
       <h2 class="section-title">Tecnologías Emergentes IA</h2>
       <div class="row">
@@ -228,16 +276,146 @@
         <div class="col-md-4 mb-4">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title"> IA Conversacional</h5>
+              <h5 class="card-title"> AI Conversacional </h5>
               <p class="card-text">Los asistentes virtuales, chatbots y sistemas de procesamiento de lenguaje natural (NLP) están evolucionando rápidamente. La IA conversacional
                  busca mejorar la capacidad de los sistemas para mantener conversaciones más naturales y significativas.</p>
             </div>
           </div>
         </div>
       </div>
+      <div class="container-fluid h-100 d-flex align-items-center justify-content-center">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Sobre la AI</h5>
+              <p class="card-text">Los asistentes virtuales, chatbots y sistemas de procesamiento de lenguaje natural (NLP) están evolucionando rápidamente. La IA conversacional busca mejorar la capacidad de los sistemas para mantener conversaciones más naturales y significativas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
+
+  <div class="container my-5">
+    <h1 class="text-center mb-5">Estudios para la creación de la IA</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="category-container">
+          <div class="category-card">
+            <div class="category-front">
+              <div>
+                <i class="category-icon fas fa-robot"></i>
+                <h3 class="category-title">deep learning</h3>
+              </div>
+            </div>
+            <div class="category-back">
+              <h3 class="category-title">Deep Learning</h3>
+              <p class="category-description">es un sistema que se basa también en el aprendizaje, pero cuyo objetivo es maximizar las opciones y oportunidades que ofrece la inteligencia artificial.</p>
+              <a class="nav-link" href="http://127.0.0.1:5500/AI/catehorias.html">Saber mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="category-container">
+          <div class="category-card">
+            <div class="category-front">
+              <div>
+                <i class="category-icon fas fa-brain"></i>
+                <h3 class="category-title">Machine Learning (ML)</h3>
+              </div>
+            </div>
+            <div class="category-back">
+              <h3 class="category-title">Machine Learning (ML)</h3>
+              <p class="category-description">on softwares desarrollados, entrenados a diario de forma automática de tal modo que, conforme avanza el tiempo, son capaces de desempeñar ciertas tareas optimizando los procesos.</p>
+              <a class="nav-link" href="http://127.0.0.1:5500/AI/catehorias.html">Saber mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="category-container">
+          <div class="category-card">
+            <div class="category-front">
+              <div>
+                <i class="category-icon fas fa-laptop-code"></i>
+                <h3 class="category-title">Neural Networks</h3>
+              </div>
+            </div>
+            <div class="category-back">
+              <h3 class="category-title">Neural Networks</h3>
+              <p class="category-description">son las encargadas de imitar el sistema de procesamiento de información que tiene un cerebro humano. </p>
+              <a class="nav-link" href="http://127.0.0.1:5500/AI/catehorias.html">saber mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <div class="container my-5" id="recursos">
+    <h2 class="text-center mb-4">Recursos y Enlaces</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Artículos y Noticias</h5>
+            <p class="card-text">Mantente actualizado con los últimos avances en juegos de IA.</p>
+            <a href="#" class="btn btn-primary">Leer más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Tutoriales y Guías</h5>
+            <p class="card-text">Aprende a crear tus propios juegos con IA.</p>
+            <a href="#" class="btn btn-primary">Explorar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Comunidad y Foros</h5>
+            <p class="card-text">Únete a la comunidad de desarrolladores de juegos de IA.</p>
+            <a href="#" class="btn btn-primary">Participar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
