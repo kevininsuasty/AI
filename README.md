@@ -1,4 +1,4 @@
-# AI
+
 # IA
 
 La finalidad de esta práctica es actualizar la información de todo el proyecto de forma colaborativa
