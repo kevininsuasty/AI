@@ -5,12 +5,12 @@
 
 ![ingenieria Sistemas ](https://th.bing.com/th/id/OIP.F5Jsexpyntqf_J_j0TBseAHaEQ?rs=1&pid=ImgDetMain))
 
-# Titulo del Proyecto
+# Desarrollo de Sitio Web con Bootstrap, CSS y HTML
 
 
 ## Proposito del sitio
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+El sitio web de Inteligencia Artificial Futurista es una plataforma diseñada para promocionar y proporcionar información sobre este campo emergente. Su propósito principal es ofrecer a los visitantes una visión general de la disciplina, incluyendo sus aplicaciones, servicios, certificaciones e historia. Además, presenta gráficos atractivos para que los usuarios puedan explorar visualmente el mundo de la IA y decidir si desean sumergirse en él. El objetivo es atraer a nuevos estudiantes, facilitar la planificación de su aprendizaje y ofrecer una experiencia en línea informativa y visual. También se orienta hacia el futuro de la IA, discutiendo las tendencias actuales y las posibles direcciones que podría tomar esta tecnología.
 
 ### Requisitos previos
 
