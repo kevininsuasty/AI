@@ -2,7 +2,7 @@
 # IA
 
 
-======
+
 ![ingenieria Sistemas ](https://th.bing.com/th/id/OIP.F5Jsexpyntqf_J_j0TBseAHaEQ?rs=1&pid=ImgDetMain))
 
 # Titulo del Proyecto
