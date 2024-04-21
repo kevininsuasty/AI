@@ -1,9 +1,9 @@
 
 # IA
 
-La finalidad de esta práctica es actualizar la información de todo el proyecto de forma colaborativa
-=======
-![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png))
+
+======
+![ingenieria Sistemas ](https://th.bing.com/th/id/OIP.F5Jsexpyntqf_J_j0TBseAHaEQ?rs=1&pid=ImgDetMain))
 
 # Titulo del Proyecto
 
