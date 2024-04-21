@@ -22,11 +22,13 @@ El sitio web de Inteligencia Artificial Futurista es una plataforma diseñada pa
 Give examples
 ```
 
-## Integrantes
--Jose Betancourt
--Kevin Insuasty
--Santiago Valencia
+## Herramientas Utilizadas
 
+- Bootstrap: Framework de CSS para el diseño del sitio.
+- CSS: Lenguaje de estilo utilizado para personalizar el diseño.
+- HTML: Lenguaje de marcado para la estructura del sitio.
+
+---
 
 ```
 Give the example
