@@ -12,15 +12,21 @@
 
 El sitio web de Inteligencia Artificial Futurista es una plataforma diseñada para promocionar y proporcionar información sobre este campo emergente. Su propósito principal es ofrecer a los visitantes una visión general de la disciplina, incluyendo sus aplicaciones, servicios, certificaciones e historia. Además, presenta gráficos atractivos para que los usuarios puedan explorar visualmente el mundo de la IA y decidir si desean sumergirse en él. El objetivo es atraer a nuevos estudiantes, facilitar la planificación de su aprendizaje y ofrecer una experiencia en línea informativa y visual. También se orienta hacia el futuro de la IA, discutiendo las tendencias actuales y las posibles direcciones que podría tomar esta tecnología.
 
-### Requisitos previos
 
-Qué cosas necesitas para instalar el software y cómo instalarlas
+## Herramientas Utilizadas
 
+- Bootstrap: Framework de CSS para el diseño del sitio.
+- CSS: Lenguaje de estilo utilizado para personalizar el diseño.
+- HTML: Lenguaje de marcado para la estructura del sitio.
 ```
 Give examples
 ```
 
-### Instalación
+## Integrantes
+-Jose Betancourt
+-Kevin Insuasty
+-Santiago Valencia
+
 
 Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
 
