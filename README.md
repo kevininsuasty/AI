@@ -28,10 +28,6 @@ Give examples
 -Santiago Valencia
 
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
-
-Di cuál será el paso.
-
 ```
 Give the example
 ```
