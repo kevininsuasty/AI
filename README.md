@@ -1,34 +1,36 @@
 
 # IA
 
-La finalidad de esta práctica es actualizar la información de todo el proyecto de forma colaborativa
-=======
-![Logo Java](https://seeklogo.com/images/J/java-logo-7833D1D21A-seeklogo.com.png))
 
-# Titulo del Proyecto
+
+![ingenieria Sistemas ](https://th.bing.com/th/id/OIP.F5Jsexpyntqf_J_j0TBseAHaEQ?rs=1&pid=ImgDetMain))
+
+# Desarrollo de Sitio Web con Bootstrap, CSS y HTML
 
 
 ## Proposito del sitio
 
-Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba. Consulte implementación para obtener notas sobre cómo implementar el proyecto en un sistema en vivo.
+El sitio web de Inteligencia Artificial Futurista es una plataforma diseñada para promocionar y proporcionar información sobre este campo emergente. Su propósito principal es ofrecer a los visitantes una visión general de la disciplina, incluyendo sus aplicaciones, servicios, certificaciones e historia. Además, presenta gráficos atractivos para que los usuarios puedan explorar visualmente el mundo de la IA y decidir si desean sumergirse en él. El objetivo es atraer a nuevos estudiantes, facilitar la planificación de su aprendizaje y ofrecer una experiencia en línea informativa y visual. También se orienta hacia el futuro de la IA, discutiendo las tendencias actuales y las posibles direcciones que podría tomar esta tecnología.
 
-### Requisitos previos
 
-Qué cosas necesitas para instalar el software y cómo instalarlas
+## Herramientas Utilizadas
 
+- Bootstrap: Framework de CSS para el diseño del sitio.
+- CSS: Lenguaje de estilo utilizado para personalizar el diseño.
+- HTML: Lenguaje de marcado para la estructura del sitio.
 ```
 Give examples
 ```
 
-### Instalación
+## Integrantes
 
-Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
+- Kevin Insuasty
+- Jose betancourt
+- Santiago Valencia
 
-Di cuál será el paso.
+---
 
-```
-Give the example
-```
+
 
 Y repetir
 
