@@ -19,17 +19,17 @@
     
     width: 98%;
     background-color: #000000;
-    border-radius: 10px;
+    border-radius: 100px;
     padding: 0px;
-    box-shadow: 0 25px 20px -20px  #250697;
+    box-shadow: 0 30px 20px -20px  #4709ce;
 
 }
 .Nav1 ul li{
     
     list-style: none;
     display: inline-grid;
-    padding: 2px 40px;
-    margin: 10px;
+    padding: 3px 40px;
+    margin: 7px;
     font-size: 18px;
    
     font-weight: 500;
@@ -43,7 +43,7 @@
 .Nav1 ul li::after{
     position: center;
     content: ' ';
-    background: #14048f;
+    background: #ffffff;
     width: 120%;
     height: 150%;
     border-radius: 100px;
@@ -55,7 +55,7 @@
     opacity: 0;
 }
 .Nav1 ul li:hover{
-    color: #ffffff;
+    color: #000000;
 }
 .Nav1 ul li:hover::after{
     top: 50%;
